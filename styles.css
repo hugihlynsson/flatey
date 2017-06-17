@@ -1,0 +1,75 @@
+
+.header {
+  background: #404538;
+  padding: 10vmin;
+}
+
+.header__image {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.header__subtitle {
+  font-size: 27px;
+  color: #C29220;
+  text-align: center;
+}
+
+
+.about {
+  background: #EBCEBF;
+  padding: 10vmin;
+}
+
+.about__text {
+  font-size: 27px;
+  color: #FFFFFF;
+  line-height: 1.1;
+  text-align: center;
+}
+
+
+.names {
+  padding: 10vmin;
+  background: #C29220;
+}
+
+.names__item {
+  text-align: center;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+
+.social {
+  padding: 10vmin;
+  background: #404538;
+}
+
+.social__text {
+  color: #C29220;
+  font-size: 35px;
+  color: #C29220;
+  text-align: center;
+}
+
+
+.footer {
+  padding: 10vmin;
+  background: #404538;
+}
+
+.footer__title {
+  font-size: 45px;
+  color: #C29220;
+  text-align: center;
+}
+
+.footer__location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #C29220;
+}
