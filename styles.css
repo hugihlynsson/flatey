@@ -72,8 +72,8 @@ body {
 
 .about {
   background: #EBCEBF;
-  padding: 10vh 10vw;
-  min-height: 40vh;
+  padding: 15vh 10vw;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,6 +106,15 @@ body {
 }
 
 
+.imageOnTable {
+  width: 100vw;
+  height: 80vh;
+  background: url('images/pizza.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+
 .social {
   padding: 10vh 10vw;
   background: #404538;
@@ -127,9 +136,26 @@ body {
   text-decoration: underline;
 }
 
+.social__link__icon {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+
+.neon {
+  padding: 20vh 10vw;
+  background: #C29220;
+  text-align: center;
+}
+
+.neon__icon {
+  width: 100%;
+  height: auto;
+}
+
 
 .footer {
-  padding: 10vh 10vw;
+  padding: 10vh 10vw 5vh;
   background: #404538;
 }
 
@@ -139,6 +165,8 @@ body {
   font-size: 45px;
   color: #C29220;
   text-align: center;
+  margin: 15vh 0;
+  text-transform: uppercase;
 }
 
 .footer__location {
@@ -169,6 +197,18 @@ body {
   }
   .about__text {
     padding: 0;
-    font-size: 5vmin;
+    font-size: 3.5vw;
+  }
+
+  .names__item {
+    font-size: 4vw;
+  }
+
+  .social__link {
+    font-size: 4vw;
+  }
+
+  .neon__icon {
+    width: 35vw;
   }
 }
