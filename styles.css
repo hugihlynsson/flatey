@@ -72,7 +72,7 @@ body {
 
 .about {
   background: #EBCEBF;
-  padding: 15vh 10vw;
+  padding: 15vmin 10vw;
   min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,6 +93,7 @@ body {
   font-size: 27px;
   color: #FFFFFF;
   line-height: 1.1;
+  margin: 0;
   text-align: center;
 }
 
