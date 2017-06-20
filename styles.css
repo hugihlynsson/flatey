@@ -40,6 +40,11 @@
   src: url('fonts/340070_1_0.eot?#iefix') format('embedded-opentype'), url('fonts/340070_1_0.woff2') format('woff2'), url('fonts/340070_1_0.woff') format('woff'), url('fonts/340070_1_0.ttf') format('truetype');
 }
 
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -73,7 +78,7 @@ body {
 .about {
   background: #EBCEBF;
   padding: 15vmin 10vw;
-  min-height: 60vh;
+  min-height: 50vmin;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,7 +155,7 @@ body {
 
 
 .neon {
-  padding: 20vh 10vw;
+  padding: 15vh 10vw;
   background: #C29220;
   text-align: center;
 }
@@ -207,11 +212,11 @@ body {
   }
 
   .about {
-    padding: 5vh 25vw;
+    padding: 15vmin 20vw;
   }
   .about__text {
     padding: 0;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
 
   .names__item {
@@ -224,5 +229,12 @@ body {
 
   .neon__icon {
     width: 35vw;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  .about {
+    padding: 15vmin 25vw;
   }
 }
