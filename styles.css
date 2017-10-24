@@ -226,11 +226,11 @@ body {
   }
   .about__text {
     padding: 0;
-    font-size: 4.6vw;
+    font-size: 5vw;
   }
 
   .menu__link {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .social__link {
@@ -253,6 +253,9 @@ body {
 
 @media screen and (min-width: 800px) {
   .about {
-    padding: 15vmin 20vw;
+    padding: 18vmin 20vw;
+  }
+  .about__text {
+    font-size: 4vw;
   }
 }
