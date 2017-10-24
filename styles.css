@@ -114,18 +114,19 @@ body {
 }
 
 
-.names {
-  padding: 10vh 10vw;
+.menu {
+  padding: 20vh 10vw;
   background: #C29220;
 }
 
-.names__item {
+.menu__link {
   font-family: 'ITC-Garamond', 'Garamond', serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   font-size: 35px;
   color: #FFFFFF;
+  display: block;
 }
 
 
@@ -228,7 +229,7 @@ body {
     font-size: 4.6vw;
   }
 
-  .names__item {
+  .menu__link {
     font-size: 4vw;
   }
 
