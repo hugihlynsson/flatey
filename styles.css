@@ -47,6 +47,12 @@
           box-sizing: border-box;
 }
 
+html {
+  background-color: #EBCEBF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #404538), color-stop(50%, #EBCEBF));
+  background: linear-gradient(to bottom, #404538 50%, #EBCEBF 50%);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -55,7 +61,7 @@ body {
 
 .header {
   background: #EBCEBF;
-  padding: 15vh 10vw;
+  padding: 20vh 10vw 2vh;
   text-align: center;
 }
 
@@ -67,7 +73,7 @@ body {
 
 .header__subtitle {
   margin-top: 0.8em;
-  margin-bottom: 2em;
+  margin-bottom: 20vmin;
   font-family: 'ITC-Garamond', 'Garamond', serif;
   font-size: 27px;
   color: #C29220;
@@ -182,7 +188,7 @@ body {
   text-transform: uppercase;
 }
 
-.footer__location {
+.info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,14 +205,14 @@ body {
           justify-content: space-between;
 }
 
-.footer__location__item {
+.info__item {
   font-family: 'ITC-Garamond', 'Garamond', serif;
   font-size: 20px;
   margin-bottom: 0;
   color: #C29220;
 }
 
-.footer__location__item__link {
+.info__item__link {
   text-decoration: none;
   color: inherit;
 }
@@ -241,7 +247,7 @@ body {
     font-size: 6vw;
     margin: 10vh 0 20vh;
   }
-  .footer__location {
+  .info {
     margin: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
