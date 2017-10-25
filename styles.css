@@ -47,7 +47,7 @@
           box-sizing: border-box;
 }
 
-html {
+html, body {
   background-color: #EBCEBF;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #404538), color-stop(50%, #EBCEBF));
   background: linear-gradient(to bottom, #404538 50%, #EBCEBF 50%);
