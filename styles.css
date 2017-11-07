@@ -417,7 +417,7 @@ body {
   }
   .menu__drinks {
     flex: 1;
-    border-left: 0.07em solid #C29220;
+    border-left: 0.1em solid #C29220;
   }
   .menu__title--drinks {
     border-top: 0;
@@ -429,10 +429,6 @@ body {
 
   .menu__pizzas {
     flex: 2;
-  }
-  .menu__drinks {
-    flex: 1;
-    border-left: 0.07em solid #C29220;
   }
   .menu__pizza__box {
     margin: 0 auto;
