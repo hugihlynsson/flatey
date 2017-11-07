@@ -206,6 +206,19 @@ body {
   width: 70%;
 }
 
+.menu__item__footnote {
+  position: relative;
+  font-size: 0.6em;
+  padding-left: 0.2em;
+  margin: 0.5em 0 0;
+}
+.menu__item__footnote::before {
+  content: '*';
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
 .menu__takeAway {
   padding: 1em 0 0.5em;
   margin: 0;
