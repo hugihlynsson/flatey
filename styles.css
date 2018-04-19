@@ -53,6 +53,7 @@ html, body {
   background: -webkit-linear-gradient(top, #404538 50%, #EBCEBF 50%);
   background: -o-linear-gradient(top, #404538 50%, #EBCEBF 50%);
   background: linear-gradient(to bottom, #404538 50%, #EBCEBF 50%);
+  margin: 0;
 }
 
 body {
@@ -158,11 +159,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.5em 1em;
+  padding: 1em;
 }
 
 .menu__item {
-  padding: 1em 0;
+  padding: 0.5em 0;
   max-width: 22em;
   width: 100%;
 }
@@ -285,6 +286,12 @@ body {
   margin: 0;
 }
 
+.menu__drink__extra {
+  font-size: 0.7em;
+  margin: 0;
+  font-style: italic;
+}
+
 .menu__drink__price {
   font-size: 0.7em;
   color: #C29220;
@@ -392,7 +399,7 @@ body {
   }
 
   .menu__item {
-    padding: 1em;
+    padding: 0.5em 1em;
   }
   .menu__takeAway {
     padding: 1em 1em 0.5em;
