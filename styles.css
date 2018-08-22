@@ -43,15 +43,11 @@
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
   background-color: #EBCEBF;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #404538), color-stop(50%, #EBCEBF));
-  background: -webkit-linear-gradient(top, #404538 50%, #EBCEBF 50%);
-  background: -o-linear-gradient(top, #404538 50%, #EBCEBF 50%);
   background: linear-gradient(to bottom, #404538 50%, #EBCEBF 50%);
   margin: 0;
 }
@@ -89,19 +85,10 @@ body {
   background: #EBCEBF;
   padding: 20vmin 10vw;
   min-height: 50vmin;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .about--dark {
   background: #404538;
@@ -149,16 +136,9 @@ body {
 }
 
 .menu__pizza__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding: 1em;
 }
 
@@ -170,19 +150,10 @@ body {
 
 .menu__item__header {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
   margin: 0;
   margin-bottom: 0.3em;
   overflow: hidden;
@@ -245,16 +216,9 @@ body {
 
 .menu__drinkCategory {
   margin: 1.5em 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu__drinkCategory__title {
@@ -270,12 +234,8 @@ body {
 }
 
 .menu__drink {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0.3em 0;
   width: 100%;
   max-width: 20em;
@@ -296,8 +256,7 @@ body {
   font-size: 0.7em;
   color: #C29220;
   margin: 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin-left: 0.5em;
 }
 
@@ -348,46 +307,62 @@ body {
   font-size: 10vw;
   color: #C29220;
   text-align: center;
-  margin: 0 0 5vh;
+  margin: 0 0 2vh;
   text-transform: uppercase;
 }
 
+.footer__title__extra {
+  font-weight: 400;
+  font-size: 16px;
+  color: #C29220;
+  text-align: center;
+  margin: 0 0 3vh;
+}
+
 .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin: 5vh 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .info__item {
+  display: block;
   font-size: 20px;
-  margin-bottom: 0;
-  color: #C29220;
+  margin: 1em 0;
+}
+
+.info__item__text {
+    font-size: 20px;
+    margin: 0;
+    color: #C29220;
+    display: block;
+    text-align: center;
+}
+.info__item__text--extra {
+  font-size: 16px;
+  margin-top: 4px;
 }
 
 .info__item__link {
   text-decoration: none;
-  color: inherit;
+  color: #C29220;
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .header__logo {
     width: 40vw;
     min-width: 300px;
   }
   .header__subtitle {
     font-size: 3vw;
+  }
+
+  .info {
+    margin: 0;
+    flex-direction: row;
   }
 
   .about {
@@ -414,14 +389,10 @@ body {
 
   .footer__title {
     font-size: 6vw;
-    margin: 10vh 0 20vh;
+    margin: 10vh 0 2vh;
   }
-  .info {
-    margin: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  .footer__title__extra {
+    margin-bottom: 14vh;
   }
 }
 
@@ -434,19 +405,13 @@ body {
     font-size: 4vw;
   }
   .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .menu__pizzas {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
   .menu__drinks {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     border-left: 0.1em solid #C29220;
   }
   .menu__title--drinks {
@@ -458,9 +423,7 @@ body {
 @media screen and (min-width: 1000px) {
 
   .menu__pizzas {
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    flex: 2;
   }
   .menu__pizza__box {
     margin: 0 auto;
