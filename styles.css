@@ -311,14 +311,6 @@ body {
   text-transform: uppercase;
 }
 
-.footer__title__extra {
-  font-weight: 400;
-  font-size: 16px;
-  color: #C29220;
-  text-align: center;
-  margin: 0 0 3vh;
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -389,10 +381,7 @@ body {
 
   .footer__title {
     font-size: 6vw;
-    margin: 10vh 0 2vh;
-  }
-  .footer__title__extra {
-    margin-bottom: 14vh;
+    margin: 10vh 0 20vh;
   }
 }
 
