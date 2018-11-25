@@ -107,6 +107,12 @@ body {
 .about__text--dark {
   color: #304538;
 }
+.about__text a {
+  color: inherit;
+}
+.about__text a:hover {
+  color: #C29220;
+}
 
 .menu__box {
   padding: 1em;
